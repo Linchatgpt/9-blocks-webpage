@@ -42,7 +42,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
         const footerEl = document.createElement("div");
         footerEl.className = "card-footer";
-        footerEl.textContent = "Card " + card.id;
+
+        const footerLeft = document.createElement("span");
+        footerLeft.textContent = "Card " + card.id;
+
+        const footerHint = document.createElement("span");
+        footerHint.className = "card-footer-hint";
+        footerHint.textContent = "點一下展開 / 收合";
+
+        footerEl.appendChild(footerLeft);
+        footerEl.appendChild(footerHint);
 
         cardEl.appendChild(headerEl);
         cardEl.appendChild(titleEl);
@@ -52,6 +61,42 @@ document.addEventListener("DOMContentLoaded", function () {
 
         grid.appendChild(cardEl);
       });
+
+      // 手機端：點擊卡片展開 / 收合
+      const mql = window.matchMedia("(max-width: 640px)");
+
+      function setupMobileToggle(e) {
+        const isMobile = e.matches;
+
+        const cards = document.querySelectorAll(".card");
+        cards.forEach(function (cardEl) {
+          // 清掉舊 listener，避免重複綁定
+          cardEl.replaceWith(cardEl.cloneNode(true));
+        });
+
+        const refreshedCards = document.querySelectorAll(".card");
+
+        if (isMobile) {
+          refreshedCards.forEach(function (cardEl) {
+            cardEl.addEventListener("click", function () {
+              const isOpen = cardEl.classList.contains("is-open");
+              // 先把其他卡片收起來（單一展開）
+              refreshedCards.forEach(function (c) {
+                c.classList.remove("is-open");
+              });
+              if (!isOpen) {
+                cardEl.classList.add("is-open");
+              }
+            });
+          });
+        }
+        // 桌機端不需要特別處理，一律全展開
+      }
+
+      // 初次判斷一次
+      setupMobileToggle(mql);
+      // 當視窗寬度改變（例如旋轉手機）時重新設定
+      mql.addEventListener("change", setupMobileToggle);
     })
     .catch(function (err) {
       console.error(err);
