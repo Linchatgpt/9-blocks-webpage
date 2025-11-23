@@ -47,6 +47,13 @@
       flex-direction: column;
       justify-content: space-between;
       min-height: 180px;
+      cursor: default;
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 22px rgba(15, 23, 42, 0.08);
     }
 
     .card-header {
@@ -59,7 +66,7 @@
     .card-title {
       font-size: 16px;
       font-weight: 700;
-      margin-bottom: 8px;
+      margin-bottom: 6px;
       color: #111827;
     }
 
@@ -87,14 +94,58 @@
       margin-top: 10px;
       font-size: 12px;
       color: #9ca3af;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
     }
 
+    .card-footer-hint {
+      display: none;
+    }
+
+    /* ===== 手機端優化 ===== */
     @media (max-width: 640px) {
       .page {
         padding: 16px 12px 28px;
       }
+
+      .page-title {
+        font-size: 20px;
+      }
+
       .card {
         min-height: auto;
+        padding: 14px 14px 12px;
+        cursor: pointer;
+      }
+
+      .card-title {
+        font-size: 15px;
+      }
+
+      .card-tagline {
+        font-size: 13px;
+        margin-bottom: 4px;
+      }
+
+      /* 手機預設收合內容，只顯示展開的卡片 */
+      .card-list {
+        display: none;
+      }
+
+      .card.is-open .card-list {
+        display: block;
+        margin-top: 6px;
+      }
+
+      .card-footer {
+        margin-top: 6px;
+        font-size: 11px;
+      }
+
+      .card-footer-hint {
+        display: inline-block;
+        color: #6b7280;
       }
     }
   </style>
