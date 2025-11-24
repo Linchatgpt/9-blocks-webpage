@@ -1,4 +1,68 @@
 {
+  "schemaVersion": "2.0",
+  "meta": {
+    "title": "同理 vs 同理心｜精萃卡",
+    "subtitle": "精萃提問教練 https://www.leading4elite.com",
+    "source": "同理 vs 同理心：打造高信任的主管對話力",
+    "version": "v1",
+    "created_at": "2025-11-24",
+
+    "colorPalette": {
+      "primary": "#111827",
+      "secondary": "#374151",
+      "muted": "#6b7280",
+      "cardSectionText": "#4b5563",
+      "accent": "#4f46e5",
+      "background": "#f5f7fb",
+      "cardBackground": "#ffffff",
+      "cardBorder": "#e5e7eb",
+      "cardHeaderBackground": "#eef2ff",
+      "cardHeaderBorder": "#e5e7eb"
+    },
+
+    "styles": {
+      "pageTitle": {
+        "fontSize": "26px",
+        "color": "@primary",
+        "fontFamily": "'Noto Sans TC', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+      },
+      "pageSubtitle": {
+        "fontSize": "14px",
+        "color": "@muted",
+        "fontFamily": "'Noto Sans TC', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+      },
+      "cardSection": {
+        "fontSize": "12px",
+        "color": "@cardSectionText",
+        "backgroundColor": "@cardHeaderBackground",
+        "fontFamily": "'Noto Sans TC', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
+        "borderColor": "@cardHeaderBorder",
+        "borderWidth": "0 0 1px 0"
+      },
+      "cardTitle": {
+        "fontSize": "18px",
+        "color": "@primary",
+        "fontFamily": "'Noto Sans TC', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+      },
+      "cardTagline": {
+        "fontSize": "14px",
+        "color": "@secondary",
+        "fontFamily": "'Noto Sans TC', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+      },
+      "cardPoint": {
+        "fontSize": "13px",
+        "color": "@primary",
+        "fontFamily": "'Noto Sans TC', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+      },
+      "cardContainer": {
+        "borderColor": "@cardBorder",
+        "borderWidth": "1px",
+        "borderRadius": "16px",
+        "boxShadow": "0 8px 20px rgba(15, 23, 42, 0.08)"
+      }
+    }
+  },
+
   "cards": [
     {
       "id": 1,
