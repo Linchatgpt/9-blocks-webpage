@@ -1,0 +1,179 @@
+{
+  "schemaVersion": "2.0",
+  "meta": {
+    "title": "同理 vs 同理心｜精萃卡",
+    "subtitle": "精萃提問教練 https://www.leading4elite.com",
+    "source": "同理 vs 同理心：打造高信任的主管對話力",
+    "version": "v1",
+    "created_at": "2025-11-24",
+
+    "colorPalette": {
+      "primary": "#34A6F4",
+      "secondary": "#374151",
+      "muted": "#6A7282",
+      "cardSectionText": "#4b5563",
+      "accent": "#4f46e5",
+      "background": "#f5f7fb",
+      "cardBackground": "#ffffff",
+      "cardBorder": "#e5e7eb",
+      "cardHeaderBackground": "#eef2ff",
+      "cardHeaderBorder": "#e5e7eb"
+    },
+
+    "styles": {
+      "pageTitle": {
+        "fontSize": "26px",
+        "color": "@primary",
+        "fontFamily": "'Noto Sans TC', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+      },
+      "pageSubtitle": {
+        "fontSize": "14px",
+        "color": "@muted",
+        "fontFamily": "'Noto Sans TC', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+      },
+      "cardSection": {
+        "fontSize": "12px",
+        "color": "@cardSectionText",
+        "backgroundColor": "@cardHeaderBackground",
+        "fontFamily": "'Noto Sans TC', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
+        "borderColor": "@cardHeaderBorder",
+        "borderWidth": "0 0 1px 0"
+      },
+      "cardTitle": {
+        "fontSize": "18px",
+        "color": "@primary",
+        "fontFamily": "'Noto Sans TC', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+      },
+      "cardTagline": {
+        "fontSize": "14px",
+        "color": "@secondary",
+        "fontFamily": "'Noto Sans TC', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+      },
+      "cardPoint": {
+        "fontSize": "13px",
+        "color": "muted",
+        "fontFamily": "'Noto Sans TC', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+      },
+      "cardContainer": {
+        "borderColor": "@cardBorder",
+        "borderWidth": "1px",
+        "borderRadius": "16px",
+        "boxShadow": "0 8px 20px rgba(15, 23, 42, 0.08)"
+      }
+    }
+  },
+
+  "cards": [
+    {
+      "id": 1,
+      "section": "封面",
+      "title": "同理 vs 同理心",
+      "tagline": "打造高信任的主管對話力",
+      "points": [
+        "20 個職場必備同理句型",
+        "適用情境：主管溝通、教練式領導、1 對 1 對話",
+        "目標：讓部屬感到被理解，而不只是被評價"
+      ]
+    },
+    {
+      "id": 2,
+      "section": "概念差異",
+      "title": "同理 ≠ 同理心（差在哪？）",
+      "tagline": "同理是行為，同理心是能力",
+      "points": [
+        "同理（Empathize）＝表現出理解的行為與回應方式",
+        "同理心（Empathy）＝感受與理解他人的內在心理能力",
+        "有同理心不一定會表達同理；表現出同理也不一定真的感同身受"
+      ]
+    },
+    {
+      "id": 3,
+      "section": "教練式領導",
+      "title": "為什麼主管需要同理？",
+      "tagline": "同理是教練式領導的基礎功",
+      "points": [
+        "降低部屬防衛，減少「表面應付」",
+        "提升信任感與心理安全，敢說真話",
+        "拉近主管與部屬的距離，促進協作",
+        "更快看見真正的問題，而不是只處理現象",
+        "把對話從「給答案」轉為「引導思考」"
+      ]
+    },
+    {
+      "id": 4,
+      "section": "同理句型",
+      "title": "同理句型：情緒接住（1–5）",
+      "tagline": "先接住情緒，再談解決方案",
+      "points": [
+        "1. 聽起來你現在有點……（情緒）？",
+        "2. 我感受到這對你來說不太容易。",
+        "3. 你剛剛提到的那段壓力，我可以理解。",
+        "4. 你會這樣想、這樣感受，其實很合理。",
+        "5. 我聽得出來，你很在意這件事。"
+      ]
+    },
+    {
+      "id": 5,
+      "section": "同理句型",
+      "title": "同理句型：理解與重述（6–10）",
+      "tagline": "用重述讓對方知道「你真的有在聽」",
+      "points": [
+        "6. 讓我確認一下，你的意思是……？",
+        "7. 你希望的是……，這樣說對嗎？",
+        "8. 站在你的角度來看，現在最困難的是什麼？",
+        "9. 如果我在你的角色，我可能也會這樣想。",
+        "10. 我懂你的考量，特別是你剛才提到的那一部分。"
+      ]
+    },
+    {
+      "id": 6,
+      "section": "同理句型",
+      "title": "同理句型：支持與同行（11–15）",
+      "tagline": "讓對方感覺「不是自己一個人」",
+      "points": [
+        "11. 我在這裡，我們一起來釐清這件事。",
+        "12. 你不用一個人扛，我們可以一起想辦法。",
+        "13. 我理解你的擔心，我會陪你一起討論下一步。",
+        "14. 你提到的重點很重要，我們可以從那裡開始。",
+        "15. 我們一起看看，有沒有什麼方式可以更支持你。"
+      ]
+    },
+    {
+      "id": 7,
+      "section": "同理句型",
+      "title": "同理句型：需求探索（16–20）",
+      "tagline": "把對話往「前進」帶，而不是卡在抱怨",
+      "points": [
+        "16. 你現在最需要的是什麼？",
+        "17. 什麼做法，對你來說會最有幫助？",
+        "18. 在這件事上，我可以提供什麼支持，對你最有價值？",
+        "19. 如果這件事順利解決，你希望看到的狀態是什麼？",
+        "20. 在現在的情況下，什麼會讓你比較安心？"
+      ]
+    },
+    {
+      "id": 8,
+      "section": "自我覺察",
+      "title": "主管三個自我檢視問題",
+      "tagline": "先覺察自己，才能帶出別人的覺察",
+      "points": [
+        "當部屬在說話時，我是先聽，還是先判斷？",
+        "我有沒有重述一次，確認自己真的聽懂對方要表達的是什麼？",
+        "我給出的回應，是出於我自己的焦慮，還是出於對對方的理解？"
+      ]
+    },
+    {
+      "id": 9,
+      "section": "立即應用",
+      "title": "今天，練習用一句同理句型",
+      "tagline": "把概念變成肌肉記憶",
+      "points": [
+        "對一位最近看起來很累、壓力大的同仁，用一句同理句型。",
+        "在下一次專案會議中，試著先同理，再給建議。",
+        "安排一次 1 對 1，刻意多用重述與確認的句子。",
+        "遇到衝突或誤會時，先接住情緒，再談立場與做法。",
+        "同理，是建立信任最快、成本最低的做法之一。"
+      ]
+    }
+  ]
+}
